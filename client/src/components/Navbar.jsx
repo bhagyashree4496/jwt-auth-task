@@ -19,7 +19,7 @@ const Navbar = () => {
       </Link>
       <div className="dropdown">
         <button className="dropbtn" onClick={() => setIsOpen(!isOpen)}>
-          {user ? `Hello ${user.name}` : "Hi Sign In"}
+          {user ? `Hello, ${user.name} ⏬` : "Hi Sign In ⏬"}
         </button>
         {isOpen &&
           (user ? (
